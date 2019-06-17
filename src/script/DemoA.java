@@ -20,6 +20,7 @@ public class DemoA {
 	public void test2()
 	{
 		Reporter.log("test2",true);
+		Reporter.log("test2",true);
 	}
 	@AfterMethod
 	public void a1(ITestResult testResults)
