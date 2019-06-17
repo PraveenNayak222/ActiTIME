@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[HomePage is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[loginis PASSED]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30592" started-at="2019-06-14T13:59:54Z" finished-at="2019-06-14T14:00:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30592" started-at="2019-06-14T13:59:54Z" finished-at="2019-06-14T14:00:25Z">
+      <class name="script.TestValidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:script.TestValidLogin@26be92ad]" name="openApplication" is-config="true" duration-ms="18210" started-at="2019-06-14T19:29:54Z" finished-at="2019-06-14T19:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="login()[pri:0, instance:script.TestValidLogin@26be92ad]" name="login" duration-ms="9714" started-at="2019-06-14T19:30:12Z" finished-at="2019-06-14T19:30:22Z">
+          <reporter-output>
+            <line>
+              <![CDATA[HomePage is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:script.TestValidLogin@26be92ad]" name="closeApplication" is-config="true" duration-ms="2639" started-at="2019-06-14T19:30:22Z" finished-at="2019-06-14T19:30:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=TestValidLogin.login()[pri:0, instance:script.TestValidLogin@26be92ad] output=HomePage is Displayed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[loginis PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.TestValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
